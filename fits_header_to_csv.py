@@ -10,7 +10,7 @@ import pandas as pd
 
 
 
-def fits_header_to_csv(ifname_fits,ofname_csv,extention=0):
+def fits_header_to_csv(ifname_fits,ofname_csv,extension=0):
     #
     # check HDU ##
     #
