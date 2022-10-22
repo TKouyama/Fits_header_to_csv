@@ -16,7 +16,7 @@ def fits_header_to_csv(ifname_fits,ofname_csv,extension=0):
     #
     hdulist_onc=fits.open(ifname_fits)
     hdulist_onc.info()  
-    hdu_onc=hdulist_onc[extention]
+    hdu_onc=hdulist_onc[extension]
 
     # header read
     header_onc=hdu_onc.header
