@@ -1,5 +1,5 @@
 # Fits_header_to_csv
-Output lines in fits header to a csv (keywords, values, and comments)
+A simple python code for outputing lines in fits header to a csv (keywords, values, and comments)
 
 Because it seems there is no library which outputs lines in fits header to a csv, I prepared this.
 The python code is definitrly unefficient one.
