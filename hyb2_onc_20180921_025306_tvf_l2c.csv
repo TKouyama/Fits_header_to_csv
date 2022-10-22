@@ -1,0 +1,150 @@
+Keywords,Values,Comments
+XTENSION, 'IMAGE   '           , type of extension                              
+BITPIX  ,                  -32 , number of bits per data pixel                  
+NAXIS   ,                    2 , number of data axes                            
+NAXIS1  ,                 1024 , length of data axis 1                          
+NAXIS2  ,                 1024 , length of data axis 2                          
+PCOUNT  ,                    0 , number of parameters per group                 
+GCOUNT  ,                    1 , number of groups                               
+EXTNAME , 'ONC-LEVEL2c'        , name of this HDU                               
+EXTVER  ,                    1 , version of the extension                       
+ORIGIN  , 'HAYABUSA-2 ONC team', organization responsible for the data         
+DATE    , '2018-09-24T05:20:12', date of generation of this HDU in UTC         
+DATE-BEG, '2018-09-21T02:53:06.226', date of the start of observation in UTC   
+DATE-OBS, '2018-09-21T02:53:06.259', date of the middle of observation in UTC  
+DATE-END, '2018-09-21T02:53:06.292', date of the end of observation in UTC     
+TELESCOP, 'HAYABUSA-2'         , telescope used to acquire data                 
+SPCECRFT, 'HAYABUSA-2'         , name of spacecraft                             
+INSTRUME, 'Optical Navigation Camera', name of instrument                      
+OBJECT  , 'RYUGU   '           , name of observed object                        
+BUNIT   , 'W/m2/um/str'        , physcal units of the array values              
+DATAMAX ,                  569 , maximum data value                             
+DATAMIN ,                    3 , minimum data value                             
+MEAN    ,              156.483 , mean value of the data                         
+STDDEV  ,               46.894 , standard deviation of the data                 
+NAIFNAME, 'HAYABUSA2_ONC-T'    , SPICE instrument name                          
+NAIFID  ,               -37100 , SPICE instrument ID                            
+XPOSURE ,               0.0656 , Exposure time [sec]                            
+FILTER  , 'NO.3: 550nm'        ,
+NSUBIMG ,                    2 , NUMBER OF SUBIMAGES                            
+TI0     , '0x3EC5EF0E'         , SPACECRAFT CLOCK COUNT [1/32 sec]              
+AE_MODE0, 'SHOT    '           , ONC-AE MODE STDBY/SHOT                         
+OD_SEL0 , 'DE      '           , ONC-E/DE SEL                                   
+T_DRV0  , 'ON      '           , ONC-T DRV ON/OFF STATUS                        
+T_SEL0  , 'ON      '           , ONC-T SEL STATUS                               
+T_EXP0  ,               0.0656 , ONC-T EXPOSURE TIME [s]                        
+FILTER0 , 'NO.3: 550nm'        , ONC-T FILTER NAME                              
+FFLAST0 , 'OFF     '           , FLATFIELD LAMP A STATUS                        
+FFLBST0 , 'OFF     '           , FLATFIELD LAMP B STATUS                        
+W1_DRVS0, 'OFF     '           , ONC-W1 DRV ON/OFF STATUS                       
+W1_SEL0 , 'OFF     '           , ONC-W1 SEL STATUS                              
+W1_EXP0 ,                   0. , ONC-W1 EXPOSURE TIME [s]                       
+FLSTAT0 , 'DISABLE '           , FLASH LIGHT STATUS                             
+W2_DRVS0, 'OFF     '           , ONC-W2 DRV ON/OFF STATUS                       
+W2_SEL0 , 'OFF     '           , ONC-W2 SEL STATUS                              
+W2_EXP0 ,                   0. , ONC-W2 EXPOSURE TIME [s]                       
+FWD_TEC0,                    0 , FWD TIME OUT ERROR COUNT                       
+FWD_NUL0, 'T       '           , FWD NULL POSITION FLG: T/F                     
+FWD_PST0, 'OFF     '           , ONC FILTERWHEEL POSITION SENSOR STATUS  ON/OFF 
+FWD_RST0, 'NON     '           , FWD RESET STATUS:  NON/RESET                   
+FWD_DRV0, 'STOP    '           , FWD DRV STATUS:  STOP/RUN                      
+FWD_SCE0,                    0 , FWD COUNTER ERR CNT                            
+FWD_SC0 , '0x0000  '           , FWD STEP COUNTER                               
+TI1     , '0x3EC5EF2C'         , SPACECRAFT CLOCK COUNT [1/32 sec]              
+AE_MODE1, 'SHOT    '           , ONC-AE MODE STDBY/SHOT                         
+OD_SEL1 , 'DE      '           , ONC-E/DE SEL                                   
+T_DRV1  , 'ON      '           , ONC-T DRV ON/OFF STATUS                        
+T_SEL1  , 'ON      '           , ONC-T SEL STATUS                               
+T_EXP1  ,                   0. , ONC-T EXPOSURE TIME [s]                        
+FILTER1 , 'NO.3: 550nm'        , ONC-T FILTER NAME                              
+FFLAST1 , 'OFF     '           , FLATFIELD LAMP A STATUS                        
+FFLBST1 , 'OFF     '           , FLATFIELD LAMP B STATUS                        
+W1_DRVS1, 'OFF     '           , ONC-W1 DRV ON/OFF STATUS                       
+W1_SEL1 , 'OFF     '           , ONC-W1 SEL STATUS                              
+W1_EXP1 ,                   0. , ONC-W1 EXPOSURE TIME [s]                       
+FLSTAT1 , 'DISABLE '           , FLASH LIGHT STATUS                             
+W2_DRVS1, 'OFF     '           , ONC-W2 DRV ON/OFF STATUS                       
+W2_SEL1 , 'OFF     '           , ONC-W2 SEL STATUS                              
+W2_EXP1 ,                   0. , ONC-W2 EXPOSURE TIME [s]                       
+FWD_TEC1,                    0 , FWD TIME OUT ERROR COUNT                       
+FWD_NUL1, 'T       '           , FWD NULL POSITION FLG: T/F                     
+FWD_PST1, 'OFF     '           , ONC FILTERWHEEL POSITION SENSOR STATUS  ON/OFF 
+FWD_RST1, 'NON     '           , FWD RESET STATUS:  NON/RESET                   
+FWD_DRV1, 'STOP    '           , FWD DRV STATUS:  STOP/RUN                      
+FWD_SCE1,                    0 , FWD COUNTER ERR CNT                            
+FWD_SC1 , '0x0000  '           , FWD STEP COUNTER                               
+NPIXBIN ,                    1 , binning pixel: 1 (NON BINNING) 2 4 8           
+ROI_LLX ,                    1 , selected image area in detector pixel coord.   
+ROI_LLY ,                    1 ,
+ROI_URX ,                 1024 ,
+ROI_URY ,                 1024 ,
+L0FILE  , '51742_20180921025524_00013EC6004F.img', filename of raw image in L0 
+IMGCMPRV, 'LOSSLESS'           , Image compression style: NOTCOMP/LOSSLES/LOSS  
+IMGCMPAL, 'STARPIXEL'          , Image compression type: NOTCOMP/STARPIXEL      
+IMGCMPPR, '0x30    '           , Image compression parameter                    
+IMGPRCST, 'NORMAL END'         , Image processing err log: NORMAL END/ERR INFO  
+SCCL-BEG, '2/1053159182'       , HAYABUSA2 S/C clock start count                
+SCCL-END, '2/1053159212'       , HAYABUSA2 S/C clock end count                  
+BITDEPTH,                   10 , bit pixel depth actually used 12/10/8          
+SMEARCR , 'ONBOARD '           , smear  correction (L2B)     : NON/ONBOARD/GROUN
+BIASCR  , 'ONBOARD '           , bias correction (L2B)    : NON/ONBOARD/GROUND  
+FLATCR  , 'CORRECTED'          , flat correction (L2B)      : NON/CORRECTED     
+RADCONV , 'CONVERTED'          , conversion to radiance (L2C) : NON/CONVERTED   
+PHOTOCR , 'NON     '           , photometric correction (L2E): NON/CORRECTED    
+REGIST  , 'NON     '           , band registration  (after L2DR)   : NON/REGISTR
+FLATFN  , 'hyb2_onc_cal_flatfield_tvf_2014_norm.fit', flat field file name (L2B
+INSCALFN, 'ONC_LX.h(2018-06-23))'," Instrument calibration file name (L2B, C, D)"
+DISTCRFN, 'ONC_LX.h(2018-06-23))', distortion correction file name (L2C)       
+PHASEFN , 'N/A     '           , phase function file name (after L2E)           
+SHAPEFN , 'N/A     '           , shape model file name (after L2E)              
+DICVER  , '2018-01-28'         , version of common keyword dictionary for HYB2  
+BUS_V   ,                49.28 , BUS LINE VOLTAGE [V]                           
+ONC_I   ,                 0.52 , ONC CURRENT VALUE [A]                          
+FLAC_I  ,                 0.00 , FLA-C CURRENT VALUE [A]                        
+ONC_AET ,                 1.18 , ONC-AE TEMPERATURE [degC]                      
+T_OPTT  ,                17.82 , ONC-T OPTICS TEMPERATURE [degC]                
+T_CCDT  ,               -28.55 , ONC-T CCD TEMPERATURE [degC]                   
+T_ELET  ,                -9.72 , ONC-T ELECTRIC CIRCUIT TEMPERATURE [degC]      
+W1_OPTT ,                 2.39 , ONC-W1 OPTICS TEMPERATURE [degC]               
+W1_CCDT ,               -25.15 , ONC-W1 CCD TEMPERATURE [degC]                  
+W1_ELET ,                -3.61 , ONC-W1 ELECTRIC CIRCUIT TEMPERATURE [degC]     
+W2_OPTT ,                 0.96 , ONC-W2 OPTICS TEMPERATURE [degC]               
+W2_CCDT ,               -24.84 , ONC-W2 CCD TEMPERATURE [degC]                  
+W2_ELET ,                -4.64 , ONC-W2 ELECTRIC CIRCUIT TEMPERATURE [degC]     
+FLAC_T  ,                 6.09 , FLA-C TEMPERATURE [degC]                       
+S_DISTHR,               19.435 , distance between HYB2 and Ryugu [km]           
+S_DISTHE,          3.18834D+08 , distance between HYB2 and Earth [km]           
+S_DISTHS,          1.81011D+08 , distance between HYB2 and Sun [km]             
+S_DISTRS,          1.81011D+08 , distance between Ryugu and Sun [km]            
+S_TGRADI,               0.4325 , Ryugu radius at the equator [km]               
+S_APPDIA,              2.55029 , apparent diameter of Ryugu [deg]               
+S_IFOV  ,            0.0001074 , instantaneous field of view [rad]              
+S_SOLLAT,              27.0635 , sub solar latitude [deg] of Ryugu              
+S_SOLLON,             -122.802 , sub solar longitude [deg] of Ryugu             
+S_SSCLAT,              37.5217 , HYB2 sub S/C latitude [deg] of Ryugu           
+S_SSCLON,             -110.147 , HYB2 sub S/C longitude [deg] of Ryugu          
+S_SSCLT ,              12.8437 , HYB2 sub S/C local time [h] of Ryugu           
+S_SCPJ2X,         -1.57651D+08 , S/C X position from the Sun in J2000 [km]      
+S_SCPJ2Y,         -7.57964D+07 , S/C Y position from the Sun in J2000 [km]      
+S_SCPJ2Z,           -4.654D+07 , S/C Z position from the Sun in J2000 [km]      
+S_RA    ,              196.206 , RA of image center (J2000) [deg]               
+S_DEC   ,             -6.16093 , DEC of image center (J2000) [deg]              
+S_RA1   ,              191.858 , RA of bottom-left corner of image [deg]        
+S_DEC1  ,             -7.31386 , DEC of bottom-left corner of image [deg]       
+S_RA2   ,              197.396 , RA of bottom-right corner of image [deg]       
+S_DEC2  ,             -10.4616 , DEC of bottom-right corner of image [deg]      
+S_RA3   ,              195.037 , RA of top-left corner of image [deg]           
+S_DEC3  ,             -1.86383 , DEC of top-left corner of image [deg]          
+S_RA4   ,              200.489 , RA of top-right corner of image [deg]          
+S_DEC4  ,             -4.98575 , DEC of top-right corner of image [deg]         
+S_SCXSAN,                75.27 , angle of S/C X axis and sun direction [deg]    
+S_SCYSAN,                90.11 , angle of S/C Y axis and sun direction [deg]    
+S_SCZSAN,                14.73 , angle of S/C Z axis and sun direction [deg]    
+DARKCR  , 'CORRECTED'          , dark correction (L2B) : NON/CORRECTED          
+NLINERCR, 'CORRECTED'          , non-linearyty correction (L2B) : NON/CORRECTED 
+DISTCR  , 'CORRECTED'          , distortion correction (L2C): NON/CORRECTED     
+AOFFSET , 'NON     '           , alignment offset correc. (L2C): NON/CORRECTED  
+SOLDISCR, 'NON     '           , solar distance correction (L2D): NON/CORRECTED 
+SOLDCAL , 'NON     '           , solar distance used for calibration (L2D) [AU] 
+S2RAD   ,         8.510638E-04 , Rad. conv. factor (L2C) [W/m2/um/str/(COUNT/S)]
+SSUN    ,        -1.000000E+04 , Expected signal for Sun at 1AU (COUNT/S)].     
