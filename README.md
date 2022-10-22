@@ -5,8 +5,10 @@ Because it seems there is no library which outputs lines in fits header to a csv
 The python code is definitrly unefficient one.
 So please someone polish this, I hope.
 
-===　　
+===  
 usage:  
+
+
 try  
 python fits_header_to_csv.py  
 
