@@ -8,8 +8,6 @@ from astropy.io import fits
 import os
 import pandas as pd
 
-
-
 def fits_header_to_csv(ifname_fits,ofname_csv,extension=0):
     #
     # check HDU ##
@@ -68,7 +66,7 @@ def fits_header_to_csv(ifname_fits,ofname_csv,extension=0):
                "Values": values,
                "Comments": comments}
     df = pd.DataFrame(out_csv)
-    df.to_csv(ofname_csv)
+    df.to_csv(ofname_csv,index=False)
 
     ## Delete the work file.
     os.remove(tmp_header_output)
