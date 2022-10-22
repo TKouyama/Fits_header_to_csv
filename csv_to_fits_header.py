@@ -1,10 +1,7 @@
-
 import numpy as np
 from astropy.io import fits
 import os
 import pandas as pd
-
-
 
 #
 # function for checking whether string can be converted to numeric or not.
@@ -31,8 +28,6 @@ def is_int(s):
 
     
 def csv_to_fits_header(ifname_csv, data_fits, ofname_fits):
-
-
     # Setting HDU
     hdu_out = fits.PrimaryHDU(data_fits)
 
@@ -75,8 +70,11 @@ def csv_to_fits_header(ifname_csv, data_fits, ofname_fits):
                 header.append( (keyword, out_str, df_values[i,2] ) )
 
     hdulist = fits.HDUList([hdu_out])
-    hdulist.writeto('./sample.fits',overwrite=True)
+    hdulist.writeto(ofname_fits,overwrite=True)
 
+#
+# main
+#
 if __name__ == '__main__':
 
     ifname_csv = "./hyb2_onc_20180921_025306_tvf_l2c.csv"
