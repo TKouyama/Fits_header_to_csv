@@ -1,8 +1,8 @@
 # Fits_header_to_csv
-A simple python code for converting fits header to a csv file (keywords, values, and comments)
+Simple python codes for converting fits header to a csv file (keywords, values, and comments), and vice versa.
 
-Because it seems there is no library which outputs lines in fits header to a csv, I prepared this.
-Note: The python code is definitrly unefficient one. Need modification.
+Because it seems there is no library which outputs lines in fits header to a csv file, I prepared this.
+Note: The python codes are definitrly unefficient ones. Need modification.
 
 ===  
 usage:  
